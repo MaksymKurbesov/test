@@ -1,1 +1,0 @@
-["from","to","date","carrier-type","car-year","car-make","car-model","car-operable","user-mail","user-phone"].forEach((e=>{const r=document.querySelector(`[data-type=${e}]`);console.log(r);const a=localStorage.getItem(e);r.innerHTML=a}));

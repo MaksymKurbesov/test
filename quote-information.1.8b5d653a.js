@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".price span");["from","to","date","carrier-type","car-year","car-make","car-model","car-operable","user-mail","user-phone"].forEach((r=>{const a=document.querySelector(`[data-type=${r}]`),t=localStorage.getItem(r);a.innerHTML=t,e.innerHTML=localStorage.getItem("price")}))})();
